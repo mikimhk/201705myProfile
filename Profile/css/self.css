@@ -1,0 +1,133 @@
+/*******************
+self-introductionProfile
+*******************/
+.self-introductionProfile{
+	position:relative;
+	background-color: #696969;
+	margin-top: 11px;
+	padding: 30px;
+	color: #fff;
+}
+
+.self-introductionProfile .dl01 dt{
+	padding-left: 15px;
+	font-size: 30px;
+	font-weight: normal;
+	font-style: normal;
+	border-bottom: 1px solid #ccc;
+ }
+.self-introductionProfile .dl01 dd{
+	padding-left: 15px;
+	margin-bottom: 30px;
+}
+
+.self-introductionProfile .pt01{
+	width: 940px;
+}
+.self-introductionProfile .pt01 img{
+	position: absolute;
+	right: 50px;
+	top: 60px;
+	border-radius: 50%;
+}
+.self-introductionProfile .pt02 dl{
+	margin: 1px;
+}
+.self-introductionProfile .pt02 dt{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+.self-introductionProfile .pt02 dd{
+	display: inline;
+}
+
+
+/*******************
+self-introductionCharacter
+*******************/
+.self-introductionCharacter .pt01 .p01{
+	text-align: center;
+	margin: 30px 0;
+}
+.self-introductionCharacter .pt02{
+	display: table;
+}
+.self-introductionCharacter .pt02a{
+	display: table-cell;
+	vertical-align: top;
+	padding-left: 60px;
+	width: 50%;
+}
+.self-introductionCharacter .pt02a blockquote{
+	padding: 0 0 0 20px;
+	margin: 0 0 0 40px;
+	border-left: 5px solid #eee;
+}
+.self-introductionCharacter .pt02b{
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	width: 50%;
+}
+
+
+
+/*******************
+self-activity
+*******************/
+.self-activity .pt02 li{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	list-style: none;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 40px 0;
+}
+.self-activity .pt02 dl{
+	display: table-cell;
+	vertical-align: top;
+}
+.self-activity .pt02 img{
+	display: table-cell;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+
+/*******************
+self-another
+*******************/
+.self-another .pt02 .ul01{
+	display: table;
+	border-collapse: separate;
+	border-spacing: 30px 0;
+}
+.self-another .pt02 .ul01 > li{
+	display: table-cell;
+	vertical-align: top;
+	width: 33%;
+	list-style: none;
+}
+.self-another .pt02 dt{
+	color: #333;
+	background-color: #f5f5f5;
+	padding: 20px 15px;
+	border: 1px solid #ddd;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-size: 18px;
+}
+.self-another .pt02 dd{
+	padding: 15px 40px;
+	border: 1px solid #ddd;
+}
+.self-another .pt02 dd ul{
+	padding:0 30px;
+}
+.self-another .pt02 dd li{
+	list-style: disc;
+}
+.self-another .pt02 dd p{
+	margin-top: 0;
+	margin-bottom: 10px;
+}

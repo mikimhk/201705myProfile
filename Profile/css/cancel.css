@@ -1,0 +1,53 @@
+/*******************
+リセット(ver:2.0)
+*******************/
+/*タグリセット*/
+html{overflow-y:scroll;-webkit-overflow-scrolling:touch;}
+body{-webkit-text-size-adjust:none;-moz-text-size-adjust:none;text-size-adjust:none;}
+/*ios 4対策。指定がないと意図せぬ位置で折り返す*/
+.ios body{letter-spacing:-0.0001em;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,main{display:block;}
+audio[controls],canvas,video{display:inline-block;}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,div,iframe,caption,hr,fieldset,legend,blockquote,article,aside,details,figcaption,figure,footer,header,nav,section,audio,canvas,video{margin:0;padding:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6,p,li,dl,dt,dd,address,caption,th,td,div{word-break:break-all;word-wrap:break-word;}
+li{list-style:none;}
+img,fieldset{border:none;}
+hr{border:none;border-top:1px #000 solid;}
+a[href^="javascript"]{-webkit-touch-callout:none;touch-callout:none;}
+/*vertical-align*/
+input,button,select,textarea{vertical-align:middle;}
+img,object,embed,canvas,audio,video{vertical-align:top;}
+/*svg ie9 bugfix*/
+svg:not(:root){overflow:hidden;}
+/*iframe*/
+iframe{border:0;}
+/*table*/
+table{width:100%;border-collapse:collapse;border-spacing:0;}
+caption,th,td{margin:0;padding:0;vertical-align:top;text-align:left;}
+/*font*/
+input,select,button,textarea,h1,h2,h3,h4,h5,h6,table{font-size:inherit;}
+address,em,strong,th{font-style:normal;}
+em,strong{font-weight:bold;}
+/*clearfix*/
+div:after{display:block;clear:both;visibility:hidden;height:0;font-size:0;content:"";}
+div{display:inline-block;}
+/*\*/
+* html div{height:0;}
+div{display:block;}
+/* */
+input:focus,button:focus,textarea:focus,select:focus{outline:none;}
+input:disabled,textarea:disabled{opacity:1;}
+textarea,select[multiple="multiple"]{overflow-y:scroll;resize:vertical;-webkit-overflow-scrolling:touch;}
+input[type="checkbox"],input[type="radio"]{margin-right:2px;}
+input[type="submit"],input[type="reset"],button{-ms-appearance:button;-moz-appearance:button;-webkit-appearance:button;appearance:button;}
+select[multiple="multiple"]{background:#fff;}
+/*moz*/
+html >/**/body input[type="checkbox"],html >/**/body input[type="radio"],x:-moz-any-link{margin-right:3px;margin-bottom:0.125em;}
+/*webkit*/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+input[type="text"],input[type="password"],textarea{-webkit-appearance:none;}
+input[type="submit"],input[type="reset"],button{min-height:2em;}
+select{min-height:1.75em;}
+input[type="checkbox"],input[type="radio"]{margin-right:3px;margin-bottom:0.25em;}
+select[multiple="multiple"]{overflow-y:auto;resize:none;-webkit-appearance:none;}
+}
