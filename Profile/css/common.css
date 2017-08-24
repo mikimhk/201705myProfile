@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .container {
 	padding-top: 50px;
 	width: 1170px;
@@ -10,6 +12,7 @@ body{
 	line-height: 1.42857143;
 	color: #333;
 	background-color: #fff;
+	margin: 0px;
 }
 em{
 	font-style:normal;
@@ -55,7 +58,7 @@ common-globalHeader
 .common-globalHeader h1{
 	width: 1170px;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: 50px;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 90px;
