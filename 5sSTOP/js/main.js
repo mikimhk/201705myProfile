@@ -38,8 +38,10 @@
 
 		diff = elapsedTime - 5.0;
 		// if (diff > -1.0 && diff < 1.0) {
-		if (Math.abs(diff)< 0.5) { //絶対値
+		if (Math.abs(diff) < 0.05) { //絶対値
 			result.className = 'perfect';
+		} else if (Math.abs(diff)< 0.5) { //絶対値
+			result.className = 'regrettable';
 		}
 	});
 })();
