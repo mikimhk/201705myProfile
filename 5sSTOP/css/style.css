@@ -33,32 +33,32 @@ box-sizing:border-box;
 	font-weight: bold;
 }
 /* 数字表示 */
-#target, #result{
+.target, .result{
 	font-size: 32px;
 	margin-bottom: 15px;
 	background: #ccc;
 	height: 60px;
 	line-height: 60px;
 }
-#result.standby{
+.result.standby{
 	opacity: 0.5;
 }
-#result.perfect{
+.result.perfect{
 	background: #c69;
 	color: #fff;
 }
-#result.regrettable{
+.result.regrettable{
 	background: #69c;
 	color: #fff;
 }
 /* ボタン */
-#stop{
+.stop{
 	float: right;
 }
-#start{
+.start{
 	float: left;
 }
-#start, #stop{
+.start, .stop{
 	cursor: pointer;
 	font-size: 18px;
 	width: 145px;
@@ -67,7 +67,7 @@ box-sizing:border-box;
 	line-height: 40px;
 	box-shadow: 0 6px 0 #ccc;
 }
-#start.pushed, #stop.pushed{
+.start.pushed, .stop.pushed{
 	margin-top: 3px;
 	box-shadow: 0 3px 0 #ccc;
 }
