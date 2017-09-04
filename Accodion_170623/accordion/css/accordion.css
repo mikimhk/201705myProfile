@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+.js-accordion dl{
+display:table;
+width:490px;
+border:solid 1px #333;
+border-bottom:none;
+/* border-radius:3px; */
+margin:0;
+}
+.js-accordion dt{
+float:left;
+clear:left;
+background-color:#ccc;
+padding:10px 30px;
+width:70px;
+border-bottom:solid 0.5px #bbb;
+}
+.js-accordion dd{
+background-color:#eee;
+padding:10px 30px;
+margin-left:130px;
+width:300px;
+border-bottom:solid 0.5px #bbb;
+}
+.js-accordion p{
+display:block;
+width:490px;
+text-align:center;
+background-color:#004;
+border:solid 1px #333;
+padding:5px 0;
+color:#fff;
+text-decoration:none;
+text-align:center;
+margin:0;
+cursor:pointer;
+}
+/* .js-accordion a:visited{
+color:#fff;
+} */
+.js-accordion .btn> span:last-of-type,
+.js-accordion .btn.active> span:first-of-type{
+display: none;
+}
+.js-accordion .btn.active> span:last-of-type {
+display: inline;
+height:40px;
+}
+
+
+.js-accordion .js-inner{
+display:none;
+border-top:none;
+}
