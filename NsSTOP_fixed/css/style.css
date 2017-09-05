@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/*=======================
+reset
+=======================*/
+html,body{
+margin:0;
+padding:0;
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", verdana, arial, helvetica, sans-serif;
+background: #FcFcFc;
+color: #000;
+margin: 40px;
+font-size: 18px;
+line-height: 22px;
+-webkit-appearance: none;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+div,dl,dt,dd,ul,ol,li,p{
+display:block;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+.pt01, .pt02, .pt03{
+	width: 300px;
+	margin: 100px auto 0;
+	text-align: center;
+	font-weight: bold;
+}
+/* 数字表示 */
+.target, .result{
+	font-size: 32px;
+	margin-bottom: 15px;
+	background: #ccc;
+	height: 60px;
+	line-height: 60px;
+}
+.result.standby{
+	opacity: 0.5;
+}
+.result.perfect{
+	background: #c69;
+	color: #fff;
+}
+.result.regrettable{
+	background: #69c;
+	color: #fff;
+}
+/* ボタン */
+.stop{
+	float: right;
+}
+.start{
+	float: left;
+}
+.start, .stop{
+	cursor: pointer;
+	font-size: 18px;
+	width: 145px;
+	background: #eee;
+	height: 40px;
+	line-height: 40px;
+	box-shadow: 0 6px 0 #ccc;
+}
+.start.pushed, .stop.pushed{
+	margin-top: 3px;
+	box-shadow: 0 3px 0 #ccc;
+}
