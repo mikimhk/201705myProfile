@@ -1,0 +1,10 @@
+.pt01 {
+	border: #ccc 1px solid;
+	border-radius: 4px;
+	padding: 10px;
+}
+.p01 {
+	cursor: pointer;
+	color: #0bd;
+	margin-top:10px;
+}
