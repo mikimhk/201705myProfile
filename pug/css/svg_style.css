@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body{-webkit-text-size-adjust:none;text-size-adjust:none;word-break:break-all;word-wrap:break-word;}
+.ios body{letter-spacing:-0.0001em;}	// iOS 4
+article,aside,details,figcaption,figure,footer,header,nav,section,main{display:block;}
+audio[controls],canvas,video{display:inline-block;}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,div,iframe,caption,hr,fieldset,legend,blockquote,article,aside,details,figcaption,figure,main,footer,header,nav,section,audio,canvas,video{margin:0;padding:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6,p,li,dl,dt,dd,address,caption,th,td{word-break:inherit;word-wrap:inherit;}
+li{list-style:none;}
+img,fieldset{border:0;}
+a{display:block;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+a[href^='javascript']{-webkit-touch-callout:none;touch-callout:none;}
+hr{border:0; border-top:1px solid #000;}
+button,select,textarea{vertical-align:baseline;}
+input[type='button'],input[type='submit']{cursor:pointer;}
+input[type='button']:disabled,input[type='submit']:disabled{opacity:1;cursor:default;}
+img,object,embed,canvas,audio,video{vertical-align:top;}
+table{width:100%;border-collapse:collapse;border-spacing:0;}
+caption,th,td{margin:0;padding:0;vertical-align:top;text-align:left;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input,select,button,textarea,h1,h2,h3,h4,h5,h6,table{font-size:inherit;line-height:inherit;}
+address,em,strong,th,dfn{font-style:normal;}
+em,strong{font-weight:bold;}
+div:after{content:'';display:block;clear:both;}
+
+
+section {
+    color: #fff;
+    padding-bottom: 150px;
+}
+#section1 {
+    background-color: #5ba4cf;
+}
+#section2 {
+    background-color: #cf6a80;
+}
+#section3 {
+    background-color: #61c06a;
+}
+section:after {
+    content: "";
+    background-repeat: no-repeat;
+    display: block;
+    height: 150px;
+    position: absolute;
+    width: 100%;
+}
+#section1:after {
+    background: url("../svg/separate1.svg");
+}
+#section2:after {
+    background: url("../svg/separate2.svg");
+}
+#section3:after {
+    background: url("../svg/separate3.svg");
+}
