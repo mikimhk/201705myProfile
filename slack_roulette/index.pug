@@ -1,0 +1,14 @@
+doctype html
+html(lang='ja')
+	include inc/_head.pug
+	body
+		main
+			h1 次はだれだ！
+			div(class='button')
+				from
+					input(type='button', id='start', name='start', value='start', onclick='startBingo()')
+					input(type='button', id='stop', name='stop', value='stop', onclick='stopBingo()', style='display:none;')
+					input(type='button', id='reset', name='reset', value='reset', onclick='resetBingo()', style='display:none;')
+			div(id='view')
+			div(id='out')
+		script(type='text/javascript' src='js/script.js')

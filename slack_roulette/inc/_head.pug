@@ -1,0 +1,23 @@
+head
+	meta(charset='utf-8')
+	title {user/title}
+	// キーワード
+	meta(name='Keywords' content='{user/Keywords}')
+	// ページの概要
+	meta(name='Description' content='{user/Description}')
+	meta(name='viewport' content='width=device-width,initial-scale=1,minimal-ui')
+	// SNSでの表示
+	meta(property='og:title' content='{user/title}')
+	meta(property='og:description' content='{user/Description}')
+	meta(property='og:url' content='{environ/url}')
+	meta(property='og:type' content='article')
+	meta(property='og:image' content='css/images/ogp.png')
+	meta(property='og:site_name' content='{user/site_name}')
+	// アイコン
+	link(rel='shortcut icon' href='css/images/favicon.ico')
+	link(rel=apple-touch-icon href='css/images/apple-touch-icon.png')
+	// WEBfont
+	link(href='http://fonts.googleapis.com/earlyaccess/notosansjp.css' rel='stylesheet')
+	// CSS,js
+	link(rel='stylesheet' href='css/style.scss')
+	script(src='js/all.js')

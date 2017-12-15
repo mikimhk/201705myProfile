@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>{user/title}</title>
+		<!-- キーワード-->
+		<meta name="Keywords" content="{user/Keywords}">
+		<!-- ページの概要-->
+		<meta name="Description" content="{user/Description}">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+		<!-- SNSでの表示-->
+		<meta property="og:title" content="{user/title}">
+		<meta property="og:description" content="{user/Description}">
+		<meta property="og:url" content="{environ/url}">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="css/images/ogp.png">
+		<meta property="og:site_name" content="{user/site_name}">
+		<!-- アイコン-->
+		<link rel="shortcut icon" href="css/images/favicon.ico">
+		<link rel="null" href="css/images/apple-touch-icon.png">
+		<!-- WEBfont-->
+		<link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
+		<!-- CSS,js-->
+		<link rel="stylesheet" href="css/style.scss">
+		<script src="js/all.js"></script>
+	</head>
+	<body>
+		<main>
+			<h1>次はだれだ！</h1>
+			<div class="button">
+				<from>
+					<input type="button" id="start" name="start" value="start" onclick="startBingo()">
+					<input type="button" id="stop" name="stop" value="stop" onclick="stopBingo()" style="display:none;">
+					<input type="button" id="reset" name="reset" value="reset" onclick="resetBingo()" style="display:none;">
+				</from>
+			</div>
+			<div id="view"></div>
+			<div id="out"></div>
+		</main>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
