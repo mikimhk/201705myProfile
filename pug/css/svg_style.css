@@ -1,26 +1,20 @@
 @charset "utf-8";
-
-body{-webkit-text-size-adjust:none;text-size-adjust:none;word-break:break-all;word-wrap:break-word;}
-.ios body{letter-spacing:-0.0001em;}	// iOS 4
-article,aside,details,figcaption,figure,footer,header,nav,section,main{display:block;}
-audio[controls],canvas,video{display:inline-block;}
-body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,div,iframe,caption,hr,fieldset,legend,blockquote,article,aside,details,figcaption,figure,main,footer,header,nav,section,audio,canvas,video{margin:0;padding:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-h1,h2,h3,h4,h5,h6,p,li,dl,dt,dd,address,caption,th,td{word-break:inherit;word-wrap:inherit;}
-li{list-style:none;}
-img,fieldset{border:0;}
-a{display:block;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-a[href^='javascript']{-webkit-touch-callout:none;touch-callout:none;}
-hr{border:0; border-top:1px solid #000;}
-button,select,textarea{vertical-align:baseline;}
-input[type='button'],input[type='submit']{cursor:pointer;}
-input[type='button']:disabled,input[type='submit']:disabled{opacity:1;cursor:default;}
-img,object,embed,canvas,audio,video{vertical-align:top;}
-table{width:100%;border-collapse:collapse;border-spacing:0;}
-caption,th,td{margin:0;padding:0;vertical-align:top;text-align:left;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
-input,select,button,textarea,h1,h2,h3,h4,h5,h6,table{font-size:inherit;line-height:inherit;}
-address,em,strong,th,dfn{font-style:normal;}
-em,strong{font-weight:bold;}
-div:after{content:'';display:block;clear:both;}
+/* resetCSS */
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body {line-height:1;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none;}
+a {margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+hr {display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+input, select {vertical-align:middle;}
 
 
 section {
